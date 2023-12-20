@@ -646,7 +646,7 @@ typedef png_unknown_chunk * * png_unknown_chunkpp;
 /* Maximum positive integer used in PNG is (2^31)-1 */
 #define PNG_UINT_31_MAX ((png_uint_32)0x7fffffffL)
 #define PNG_UINT_32_MAX ((png_uint_32)(-1))
-#define PNG_SIZE_MAX ((size_t)(-1))
+#define PNG_SIZE_MAX ((size_t)0x7ffffffL)
 
 /* These are constants for fixed point values encoded in the
  * PNG specification manner (x100000)
